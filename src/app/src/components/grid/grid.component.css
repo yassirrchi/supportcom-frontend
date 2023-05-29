@@ -1,0 +1,96 @@
+.grid-container{
+    padding: 20px;
+    background-color: rgb(252, 252, 252);
+    box-shadow:  #9e13fc 0px 0px 0px 3px;
+     
+    margin-left: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:40px;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     
+
+}
+.add{
+    background-color: #e6c0ff;
+    color: #9e13fc;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+.developer-profile,.store-profile{
+    height:100%;
+}
+.dev-icon,.store-icon{
+     background-color:   #9e13fc;;
+    height:30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    
+     
+
+}
+.icons-config{
+    color: white;
+    font-size: 40px;
+}
+.dev-info,.store-info{
+    text-align: center;
+    color:  #9e13fc;;
+     
+}
+.buttons{
+     
+    display: flex;
+    justify-content: space-around;
+    
+}
+.store-buttons{
+
+}
+.tickets-counter{
+    background-color:  #9e13fc;;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.store-buttons button{
+    background-color:  #9e13fc;;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+.cle-support-div{
+    padding:5px 10px;
+     
+}
+.cle-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cle-support-div button{
+    background-color:  #9e13fc;;
+    color: white;
+}
+  

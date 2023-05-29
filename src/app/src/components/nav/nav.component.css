@@ -1,0 +1,25 @@
+.nav{
+    background-color: #9e13fc;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+}
+
+.options a{
+    display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  padding-left: 5%;
+  color: white;
+  
+}
+.options a:hover{
+    background-color:  #ba53ff;;
+
+    
+  
+}
+.options{
+    padding-top: 50px;
+}

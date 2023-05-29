@@ -1,0 +1,52 @@
+.Lists{
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: #9e13fc 0px 0px 0px 3px;
+     
+    margin-left: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.list{
+
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+
+}
+.ticket-icon{
+
+    background-color: #e0b3ff;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #9e13fc;
+}
+.createdby,.store-info,.ticket-status{
+    height: 60%;
+    background-color: #9e13fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+}
+.ticket-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+.createdby i,.store-info i{
+    font-size: 20px;
+    margin-right: 5px;
+}
